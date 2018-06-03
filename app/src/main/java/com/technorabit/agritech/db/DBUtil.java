@@ -7,6 +7,7 @@ import com.dms.datalayerapi.db.DBSupportUtil;
 import com.dms.datalayerapi.db.core.TableDetails;
 import com.technorabit.agritech.model.CropsRes;
 import com.technorabit.agritech.model.LoginRes;
+import com.technorabit.agritech.model.SeasonRes;
 import com.technorabit.agritech.model.StatesRes;
 
 import java.util.ArrayList;
@@ -32,7 +33,8 @@ public class DBUtil extends DBSupportUtil {
         allTableDefinitions.add(TableDetails.getTableDetails(StatesRes.State.class));
         allTableDefinitions.add(TableDetails.getTableDetails(LoginRes.LoginData.class));
         allTableDefinitions.add(TableDetails.getTableDetails(CropsRes.Crop.class));
-        allTableDefinitions.add(TableDetails.getTableDetails(CropsRes.Crop.class));
+        allTableDefinitions.add(TableDetails.getTableDetails(SeasonRes.Season.class));
+        allTableDefinitions.add(TableDetails.getTableDetails(SeasonRes.Season.class));
         return allTableDefinitions;
     }
 

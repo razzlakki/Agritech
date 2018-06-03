@@ -28,6 +28,18 @@
         <activity
             android:name=".DashboardActivity"
             android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FarmerListActivity"
+            android:label="@string/title_activity_farmer_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DemonstrationActivity"
+            android:label="@string/title_activity_demonstration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompetitorActivity"
+            android:label="@string/title_activity_competitor"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
