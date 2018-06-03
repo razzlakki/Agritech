@@ -40,6 +40,10 @@
         <activity
             android:name=".CompetitorActivity"
             android:label="@string/title_activity_competitor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewFarmerActivity"
+            android:label="@string/title_activity_new_farmer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

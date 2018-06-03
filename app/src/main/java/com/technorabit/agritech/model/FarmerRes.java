@@ -12,6 +12,6 @@ public class FarmerRes {
 
     public static class Farmer {
         String firstName, middleName, lastName, phNumber, districtId, districtName,
-                mandalId, mandalName, villageId, villageName, seasonName, landArea, cropDetails, remarks;
+                mandalId, mandalName, villageId, villageName,seasonId, seasonName, landArea, cropDetails, remarks;
     }
 }
